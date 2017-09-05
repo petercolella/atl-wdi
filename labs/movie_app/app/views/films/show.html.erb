@@ -1,0 +1,15 @@
+<h1>Show Movie</h1>
+
+<div class="container">
+	<h2><%= @film.title %></h2>
+	<h3><%= @film.genre %></h3>
+	<h3><%= @film.year %></h3>
+	<h4><%= @film.synopsis %></h4>
+</div>
+
+<div class="panel">
+	<%= image_tag @film.picture %>
+</div>
+
+<%= link_to 'Edit', edit_film_path(@film) %> |
+<%= link_to 'Back', films_path %>

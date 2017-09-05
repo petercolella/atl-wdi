@@ -1,0 +1,44 @@
+body {
+	background-color: #292c35;
+	display: flex;
+	flex-direction: column;
+	font-family: arial;
+}
+
+nav, footer {
+	background-color: #24242c;
+	height: 5em;
+	width: 80%;
+	margin: auto;
+}
+
+main {
+	background-color: #e0ad2e;
+}
+
+main, section {
+	width: 80%;
+	margin: auto;
+}
+
+.one {
+	background-color: #e0ad2e;
+}
+
+h1 {
+	color: white;
+	text-align: center;
+}
+
+footer {
+	background-color: #24242c;
+}
+
+a {
+	color: #747579;
+	text-decoration: none;
+}
+
+img {
+	height: 2.5em;
+}
